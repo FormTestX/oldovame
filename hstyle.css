@@ -8,23 +8,28 @@
 	margin-top: 0px;
 	margin-bottom: 20px;
 	background-color: white;
+	display: inline-block;
+	text-align: right;
 }
 
-#menu {
+.mmenu {
 	text-align: left;
 	margin-left: 15px;	
 	color: #595959;
 	display: inline-block;
-	margin-right: 60%;
+	float: left;
 }
+
 
 .menulink {
 	color: black;
 	text-decoration: none;
-	display: inline-block;
 	text-align: right;
-	margin-right: 20px;
+	margin: 20px 20px 10px 0;
+	display: inline-block;
+	float: right;
 }
+
 
 .intro {
 	margin: 63px 15px 10px 15px;
