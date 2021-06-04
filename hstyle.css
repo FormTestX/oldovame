@@ -1,17 +1,19 @@
 .menu {
 	position: fixed;
 	top: 0px;
-	font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
+	font-family: 'Helvetica Neue',Helvetica, sans-serif;
 	border-bottom: 1px solid #bab9b5;
-	width: 100%;
 	margin-left: -10px;
 	margin-top: 0px;
+	left: 0;
+	right: 0;
 	margin-bottom: 20px;
 	background-color: white;
 	display: inline-block;
 	text-align: right;
 	animation-name: fadeup;
 	animation-duration: 1s;
+	-webkit-z-index: 1;
 }
 
 .mmenu {
@@ -20,6 +22,7 @@
 	color: #595959;
 	-webkit-display: inline-block;
 	float: left;
+	cursor: pointer;
 }
 
 
@@ -34,17 +37,14 @@
 
 
 .intro {
-	margin: 63px 15px 10px 15px;
-	font-family: 'Open Sans','Helvetica Neue',Helvetica, sans-serif;
-	position: relative;
+	margin: 63px -10px 10px -10px;
+	font-family: 'Helvetica Neue',Helvetica, sans-serif;
 	text-align: center;
 	background-color: #d9d7d7;
 	padding: 20px;
-	width: 100%;
-	margin-left: -10px;
-	position: block;
-	animation-name: fadeup;
-	animation-duration: 1.3s;
+	left: 0;
+	right: 0;
+	position: relative;
 }
 
 #tag {
@@ -73,4 +73,47 @@
 @keyframes fadeup {
 	0% {transform: translate(0, 100%);}
 	100% {transform: translate(0, 100%;)}
+}
+
+.btnstory {
+	background-color: #97b7bf;
+	padding: 10px;
+	width: 40%;
+	border-radius: 5px;
+	border: 0px;
+	outline: none;
+	color: white;
+	height: 10%;
+	animation-name: fadeup;
+	animation-duration: 2.5s;
+	font-size: 15px;
+	cursor: pointer;
+	outline: none;
+}
+
+.btnstory:hover {
+	background-color: #7a99a1;
+}
+
+.btnstory:visited {
+	
+}
+
+.anime {
+	animation-name: fadeup;
+	animation-duration: 1.3s;
+}
+
+.ctn1 {
+	font-family: 'Helvetica Neue';
+	animation-name: fadeup;
+	animation-duration: 1.8s;
+	margin: 10px;
+	hover: left;
+	width: 50%;
+	display: inline-block;
+}
+
+.ctn1 h2 {
+	margin-bottom: 0px;
 }
