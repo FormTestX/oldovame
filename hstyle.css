@@ -13,7 +13,7 @@
 	text-align: right;
 	animation-name: fadeup;
 	animation-duration: 1s;
-	-webkit-z-index: 1;
+	z-index: 1;
 }
 
 .mmenu {
@@ -33,6 +33,7 @@
 	margin: 20px 20px 10px 0;
 	display: inline-block;
 	-webkit-float: right;
+	cursor: pointer;
 }
 
 
@@ -76,7 +77,7 @@
 }
 
 .btnstory {
-	background-color: #97b7bf;
+	background-color: #fe8a71;
 	padding: 10px;
 	width: 40%;
 	border-radius: 5px;
@@ -108,12 +109,40 @@
 	font-family: 'Helvetica Neue';
 	animation-name: fadeup;
 	animation-duration: 1.8s;
-	margin: 10px;
-	hover: left;
-	width: 50%;
+	margin: 30px 10% 30px 10px;
+	float: left;
+	width: 40%;
 	display: inline-block;
+	position: relative
 }
 
 .ctn1 h2 {
 	margin-bottom: 0px;
+}
+
+.ctn2 {
+	font-family: 'Helvetica Neue';
+	animation-name: fadeup;
+	animation-duration: 1.8s;
+	margin: 30px 10% 30px 10px;
+	float:  right;
+	width: 40%;
+	display: inline-block;
+	position: relative;
+}
+
+footer {
+	font-family: 'Helvetica Neue';
+	bottom: 0;
+	background-color: #adcbe3;
+	padding: 20px;
+	text-align: center;
+	margin-bottom: -50%;
+	margin-top: 100%;
+	margin-right: -10px;
+	margin-left: -10px;
+	left: 0;
+	right: 0;
+	width: 100;
+	color: white;
 }
